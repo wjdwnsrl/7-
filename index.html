@@ -1,0 +1,85 @@
+<style>
+  /* 카드 전체 꾸미기 */
+  body {
+    font-family: "Noto Sans KR", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8fafc;
+    margin: 0;
+  }
+  
+  .card {
+    width: 360px;
+    padding: 24px;
+    background-color: #f5f3ff;
+    border: 1px solid #c4b5fd;
+    border-radius: 16px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 12px rgba(91, 33, 182, 0.08);
+  }
+  
+  /* 제목 색상 변경 및 스타일 */
+  .card h1 {
+    color: #5b21b6;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+  
+  /* 이미지 스타일 (alt 속성 포함) */
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  
+  /* 소개글 및 리스트 스타일 */
+  .card p {
+    color: #374151;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    word-break: keep-all;
+  }
+  
+  .card ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    color: #4b5563;
+  }
+  
+  .card li {
+    margin-bottom: 6px;
+  }
+  
+  /* 링크 스타일 */
+  .card a {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #7c3aed;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+  
+  .card a:hover {
+    background-color: #6d28d9;
+  }
+</style>
+
+<div class="card">
+  <h1>정준기</h1>
+  <img src="https://hs-web.dreamitbiz.com/og-image.png" alt="정준기를 나타내는 프로필 이미지">
+  <p>음악을 통해 영감을 얻고, 나의 편리함과 더 나은 삶을 위한 웹 사이트를 직접 만드는 개발자 정준기입니다.</p>
+  <ul>
+    <li>🎵 좋아하는 노래 감상하기</li>
+    <li>💻 나만의 편리한 웹사이트 코딩하기</li>
+    <li>🎱 취미로 즐기는 당구</li>
+  </ul>
+  <a href="https://www.hs.ac.kr" target="_blank" rel="noopener">우리 학교 바로가기</a>
+</div>
